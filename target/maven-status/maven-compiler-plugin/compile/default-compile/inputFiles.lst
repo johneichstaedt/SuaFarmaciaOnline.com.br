@@ -1,0 +1,12 @@
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Produto.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Farmacia.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/Dao.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Usuario.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ContatosResource.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/FarmaciasResource.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ApplicationConfig.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/UsuariosResource.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ProdutosResource.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Contato.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ClientesResource.java
+/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Cliente.java

@@ -1,0 +1,111 @@
+ATENÇÃO - Em todos os casos abaixo devo selecionar no POSTMAN a opção POST.
+
+Script para salvar um cliente em específico
+
+LINK ==> http://localhost:8080/SuaFarmaciaOnline/webresources/clientes
+
+{
+  
+    "nome":"John F. Eichstaedt",
+    "dataNasc":"30/01/1982",
+    "cpf": "032.647.039-55",
+    "email":"johnfe@hotmail.com.br",
+    "telefone": "(47) 988649890",
+    "envioPromocao": true
+    
+}
+#################################################################
+
+Script para salvar um contato em específico
+
+LINK ==> http://localhost:8080/SuaFarmaciaOnline/webresources/contatos
+
+{
+  
+    "nome":"Andréia Camargo",
+    "email":"andreia.camargo@gmail.com",
+    "mensagem": "Olá, queria elogiar o vosso site."
+    
+}
+#################################################################
+
+Script para salvar uma farmácia em específico
+
+LINK ==> http://localhost:8080/SuaFarmaciaOnline/webresources/farmacias
+
+{
+  
+    "nomeFantasia":"Farmácia SESI",
+    "razaoSocial":"Drogaria e farmácia de manipulação SESI Ltda",
+    "cnpj":"234.6767/0001-88",
+    "inscEstadual":"23233453",
+    "pagCartao": false,
+    "pagBoleto": true
+    
+}
+#################################################################
+
+Script para salvar um produto em específico
+
+LINK ==> http://localhost:8080/SuaFarmaciaOnline/webresources/produtos
+
+{
+  
+    "descProduto":"Anador 4cp",
+    "marca":"Bayer",
+    "precoCompra":1.50,
+    "lucro":100,
+    "precoVenda":3.00
+    
+}
+##################################################################
+
+Script para salvar um usuário em específico
+
+LINK ==> http://localhost:8080/SuaFarmaciaOnline/webresources/usuarios
+
+
+{
+
+    "nome":"Edilson de Souza",
+    "dataNasc":"22/05/1978",
+    "cpf":"022.234.982-77",
+    "rg":"5.676.454",
+    "email":"edilsonsouza@hotmail.com",
+    "telefone":"(47) 3452-9090",
+    "senha":"23fh/;df"
+
+}
+
+
+
+
+
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  
+    "nome":"Andréia Camargo",
+    "dataNasc":"30/12/1995",
+    "cpf": "023.334.567-66",
+    "email":"andreia.camargo@gmail.com",
+    "telefone": "(47) 3352-4545",
+    "envioPromocao": true
+    
+}
