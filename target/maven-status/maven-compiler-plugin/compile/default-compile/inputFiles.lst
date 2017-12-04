@@ -1,12 +1,18 @@
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Produto.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Farmacia.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/Dao.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Usuario.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ContatosResource.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/FarmaciasResource.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ApplicationConfig.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/UsuariosResource.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ProdutosResource.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Contato.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ClientesResource.java
-/home/john/NetBeansProjects/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Cliente.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ApplicationConfig.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/services/JWTAutenticarTokenFilter.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Produto.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/services/JWTAutenticarTokenInterface.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Cliente.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Farmacia.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/Dao.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Usuario.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/FarmaciasResource.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/models/Contato.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ClientesResource.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ProdutosResource.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/util/PasswordUtils.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/util/LoggerProducer.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/UsuariosResource.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/util/SimpleKeyGenerator.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/util/KeyGenerator.java
+/home/john/Área de Trabalho/SuaFarmaciaOnline/src/main/java/br/com/suafarmaciaonline/dao/ContatosResource.java

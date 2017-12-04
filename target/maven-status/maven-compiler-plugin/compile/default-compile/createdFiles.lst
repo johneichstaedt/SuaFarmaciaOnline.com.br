@@ -1,9 +1,9 @@
-br/com/suafarmaciaonline/dao/ApplicationConfig.class
 br/com/suafarmaciaonline/models/Produto_.class
-br/com/suafarmaciaonline/models/Contato_.class
-br/com/suafarmaciaonline/dao/ClientesResource.class
 br/com/suafarmaciaonline/models/Cliente_.class
 br/com/suafarmaciaonline/models/Cliente.class
-br/com/suafarmaciaonline/dao/Dao.class
 br/com/suafarmaciaonline/models/Farmacia_.class
 br/com/suafarmaciaonline/models/Usuario_.class
+br/com/suafarmaciaonline/dao/ApplicationConfig.class
+br/com/suafarmaciaonline/models/Contato_.class
+br/com/suafarmaciaonline/dao/ClientesResource.class
+br/com/suafarmaciaonline/dao/Dao.class

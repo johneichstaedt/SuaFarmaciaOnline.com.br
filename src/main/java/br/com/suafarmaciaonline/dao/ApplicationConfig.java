@@ -23,6 +23,7 @@ public class ApplicationConfig extends Application {
         resources.add(br.com.suafarmaciaonline.dao.FarmaciasResource.class);
         resources.add(br.com.suafarmaciaonline.dao.ProdutosResource.class);
         resources.add(br.com.suafarmaciaonline.dao.UsuariosResource.class);
+        resources.add(br.com.suafarmaciaonline.services.JWTAutenticarTokenFilter.class);
     }
     
 }
