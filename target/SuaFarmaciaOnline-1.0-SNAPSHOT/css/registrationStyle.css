@@ -1,0 +1,292 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+#h1Confirma{
+  font-family: 'Biryani', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  margin-top:30px;
+}
+#h2Confirma{
+  font-family: 'Biryani', sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+#h2ConfirmaCliente{
+  font-family: 'Biryani', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+#containerPrincipal{
+  padding: 100px 30px;
+}
+
+#confirmaCorpo{
+  background-color: #3385ff;
+}
+
+#confirmaCabecalho h2{
+  text-decoration-line: none;
+  padding: 2px;
+  font-family: 'Biryani', sans-serif;
+}
+
+#h2esqueceuSenha{
+  text-decoration: none;
+  text-align: justify;
+  font-family: 'Biryani', sans-serif;
+}
+
+.homeBack{
+  text-align: center;
+  margin-top: 3em;
+  padding: 2em;
+  background:radial-gradient(circle closest-side,
+     rgba(0,0,0,0) 0%,rgba(0,0,0,0) 78%,#fff 80%,#fff 94%,
+     #36f 96%,#36f 99%,#fff 100%);
+}
+
+.botaoSairPopUp{
+  padding: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: #E7E8E8;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Biryani', sans-serif;
+}
+
+/*
+  Código CSS dos titulos das páginas de cadastro
+*/
+
+header{
+  margin-bottom: 100px;
+}
+
+header h1{
+  font-family: 'Biryani', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+header h2{
+  font-family: 'Biryani', sans-serif;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 50px;
+}
+
+/*
+  Código CSS do formulário da página de CADASTRO DE USUÁRIO
+*/
+
+fieldset{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form,
+label {
+  display: block;
+  padding: 10px;
+  margin-left: -64px;
+  font-family: 'Biryani', sans-serif;
+}
+
+form {
+  width: 100%;
+  margin: 10px;
+}
+label {
+  color: #000;
+  text-align: right;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Biryani', sans-serif;
+}
+input {
+  display: inline-block;
+  padding-left: 10px;
+  height: 30px;
+  width: 50%;
+
+}
+#formulCadastros{
+  padding-right: 20%;
+  font-family: 'Biryani', sans-serif;
+}
+
+#formulCadSenhaEsquecida{
+  padding-top: 10%;
+  padding-right: 20%;
+  font-family: 'Biryani', sans-serif;
+}
+
+#envioPromocao{
+  margin-left: 29%;
+  display: flex;
+}
+
+#textEnvioPromocao{
+  color:tomato;
+  position: relative;
+  font-family: 'Biryani', sans-serif;
+  font-weight: bold;
+  left:-22%;
+}
+
+#pagamentosCartao{
+  position: relative;
+  left:22%;
+}
+
+#pagamentosBoleto{
+  position: relative;
+  left:22%;
+}
+
+.textPagamento{
+  color:tomato;
+  font-family: 'Biryani', sans-serif;
+  font-weight: bold;
+  position: relative;
+  left: -23%;
+}
+
+
+.botoes{
+  padding-top: 2px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+  font-family: 'Biryani', sans-serif;
+}
+
+.botao{
+  width:170px;
+  height:60px;
+  position:relative;
+  font-weight: bold;
+  font-size: 20px;
+  top:210%;
+  left:46%;
+  border-radius: 3px;
+  margin: 3px;
+  font-family: 'Biryani', sans-serif;
+}
+
+
+
+
+/*
+  Código CSS da DIV entendido
+*/
+.botaoSairPopUp{
+  cursor: default;
+}
+
+/*
+  Código CSS da seção templates da página escolha_template.html
+*/
+#containerTemplates{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+#templateA{
+  padding: 5px;
+  width: 33.33333%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#templateA:hover{
+  border: 2px solid #FF0000;
+  border-radius: 8px;
+  background-color: #ff8080;
+}
+
+#templateA h1{
+  font-size: 40px;
+  padding-top: 10px;
+  height: 2%;
+}
+
+#templateB{
+width: 33.33333%;
+padding: 5px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#templateB:hover{
+  border: 2px solid #FF0000;
+  border-radius: 8px;
+  background-color: #ff8080;
+}
+
+#templateB h1{
+  font-size: 40px;
+  padding-top:10px;
+  height: 2%;
+}
+
+#templateC{
+  width: 33.34%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#templateC:hover{
+  border: 2px solid #FF0000;
+  border-radius: 8px;
+  background-color: #ff8080;
+}
+
+#templateC h1{
+  font-size: 40px;
+  padding-top:10px;
+  height: 2%;
+}
+
+.figurasTemplate img{
+    width: 97%;
+    position: relative;
+    bottom: 20%;
+}
+
+/*
+  Código CSS do Rodapé das páginas
+*/
+footer{
+  width:100%;
+  text-align: center;
+  font-family: 'Biryani', sans-serif;
+  padding: 10px;
+  margin-top: 20%;
+  background-color: #4d4d4d;
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+/*
+ Código CSS das páginas em construção
+*/
+ #figConstrucao{
+   margin-top: 10%;
+   text-align: center;
+ }

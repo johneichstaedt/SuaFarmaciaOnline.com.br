@@ -1,0 +1,142 @@
+/*
+  CONFIGURAÇÕES GERAIS
+  font-family: 'Biryani', sans-serif;
+  font-family: 'Martel Sans', sans-serif;
+  font-family: 'Actor', sans-serif;
+*/
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+
+hr{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*
+  INÍCIO do Código do CSS do SLIDE
+*/
+#containerSlide{
+  width: 98%;
+  overflow: hidden;
+  height: 453px;
+  margin: 8px auto;
+  box-shadow: 0 0 8px #000;
+  position: relative;
+}
+
+#containerSlide img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+  left: 0;
+}
+
+#containerSlide h1{
+  z-index: 2;
+  font-size: 80px;
+  font-family: 'Biryani', sans-serif;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 310px;
+  padding-left: 0px;
+  color:  #000;
+  font-weight: bold;
+}
+
+#containerSlide p{
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding:10px;
+  padding-left: 1px;
+  font-family: 'Biryani', sans-serif;
+  font-weight: bold;
+  font-size: 63px;
+  background: rgb(0, 0, 0, 0.5);
+  color: 	#000;
+  text-align: center;
+}
+
+#containerSlide span{
+  color: #3366cc;
+}
+/*
+  FIM do Código do CSS do SLIDE
+*/
+
+/*
+  INÍCIO do Código do CSS do campo LOGIN
+*/
+section {
+  width:100px;
+  height:100px;
+  position:relative;
+  top:100%;
+  left:45%;
+  font-family: 'Biryani', sans-serif;
+}
+
+label{
+  font-size: 30px;
+  font-family: 'Biryani', sans-serif;
+}
+
+input{
+  height: 30px;
+  font-family: 'Biryani', sans-serif;
+}
+
+a{
+ text-decoration: none;
+ position: relative;
+ left:45.5%;
+ color:blue;
+ text-align: center;
+ font-family: 'Biryani', sans-serif;
+}
+
+.botao{
+  width:80px;
+  height:40px;
+  position:absolute;
+  font-weight: bold;
+  font-size: 20px;
+  top:253%;
+  left:50%;
+  border-radius: 3px;
+  font-family: 'Biryani', sans-serif;
+}
+
+input{
+  margin-top: -6px;
+}
+
+/*
+  FIM do Código do CSS do campo LOGIN
+*/
+
+
+/*
+  Código CSS do Rodapé da página de LOGIN
+*/
+
+footer{
+  width:100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #4d4d4d;
+  color: #f1f1f1;
+  margin-top: 25%;
+  font-weight: bold;
+  font-family: 'Biryani', sans-serif;
+}

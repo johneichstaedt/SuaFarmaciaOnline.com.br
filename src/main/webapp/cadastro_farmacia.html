@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Actor|Biryani|Martel+Sans" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/registrationStyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Cadastro de usuário</title>
+  </head>
+  <body>
+    <div id="containerPrincipal">
+      <header>
+        <h1>SUA FARMÁCIA ON-LINE</h1>
+        <h2>CADASTRO DA SUA FARMÁCIA</h2>
+      </header>
+      <section id="formulario">
+        <fieldset>
+          <section id="formulCadastros">
+              <form class="cadastroNomeFantasia" >
+                <label for="nomeCompletoCliente">Nome fantasia:
+                  <input type="text" class="entradaFarmacia" name="nomeFantasia" id="nomeFantasia" placeholder="Digite o nome fantasia da sua farmácia" required>
+                </label>
+                <label for="dataNascimentoCliente">Razão social:
+                    <input type="text" class="entradaFarmacia" name="razaoSocial" id="razaoSocial" placeholder="Digite aqui a razão social" required>
+                </label>
+                <label for="cpfCliente">CNPJ:
+                  <input type="text" name="cnpj" class="entradaFarmacia" id="cnpj" placeholder="xx.xx.xxx-xxxx/xx" required>
+                </label>
+                <label for="e-mailCliente">Inscrição estadual:
+                    <input type="text" name="inscricaoEstadual" class="entradaFarmacia" id="inscricaoEstadual" placeholder="xxxxxxxxx" required>
+                </label>
+                <div id="formasPagamento">
+                  <div id="pagamentosCartao">
+                      <input type="checkbox" name="pagamentoCartao" id="checkPagamentoCartao" >
+                      <span class="textPagamento" id="pagamentoCartao">Pagamento com cartão</span>
+                  </div>
+                  <div id="pagamentosBoleto">
+                      <input type="checkbox" name="pagamentoBoleto" id="checkPagamentoBoleto">
+                      <span class="textPagamento" id="pagamentoBoleto">Pagamento com boleto</span>
+                  </div>
+                </div>
+                <br/><br/><br/>
+                <div class="botoes">
+                  <button id="botao" class="botao" type="submit" form="cadastroUsuario" formaction="#" name="botaoEntrarSistema" onclick="abrirPagTemplate()">Cadastrar</button>
+                  <button class="botao" type="submit" form="cadastroCliente" name="botaoEntrarSistema" onclick="limparCamposFarm()">Limpar Campos</button>
+                </div>
+              </form>
+              </fieldset>
+              </section>
+          </section>
+      </div>
+      <footer>Desenvolvido por John F. Eichstaedt. Todos os direitos reservados&nbsp;&copy;&nbsp;2017</footer>
+  </body>
+</html>

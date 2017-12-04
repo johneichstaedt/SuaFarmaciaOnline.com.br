@@ -1,0 +1,278 @@
+/* Higher than 1200 (desktop devices)
+====================================================================== */
+@media (min-width: 1200px) {
+  .nav-collapse.collapse {
+    float: right;
+  }
+  .navbar-inner > .btn-overlay {
+    display: none !important;
+  }
+}
+/* Higher than 960 (desktop devices)
+====================================================================== */
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+  .nav-collapse.collapse {
+    float: right;
+  }
+  .navbar .nav > li > a {
+    margin: 29px 20px;
+  }
+  #slides {
+    position: relative;
+  }
+  #slides .slides-container .container {
+    position: relative;
+  }
+  #slides .slides-container .container .caption {
+    width: 42%;
+    bottom: 100px;
+  }
+  #slides .slides-container .container .caption.center {
+    left: 50%;
+    margin-left: -21%;
+    text-align: center;
+  }
+}
+/* Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  header .navbar {
+    position: relative;
+    top: 0px;
+  }
+  header .navbar .btn-navbar {
+    margin-top: 20px;
+  }
+  header .navbar .btn-navbar:hover {
+    margin-top: 21px;
+  }
+  header .navbar .btn-navbar.active,
+  header .navbar .btn-navbar:active {
+    margin-top: 22px;
+  }
+  header .navbar-inner {
+    background: transparent;
+  }
+  header .navbar .brand {
+    color: #ffffff;
+  }
+  header .navbar .nav > li > a {
+    color: #ffffff;
+    padding: 0px 20px;
+  }
+  header .navbar .nav > li > a:focus,
+  header .navbar .nav > li > a:hover {
+    color: #ffffff;
+  }
+  header .navbar .nav > .active > a,
+  header .navbar .nav > .active > a:hover,
+  header .navbar .nav > .active > a:focus {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
+  header .navbar .nav li.dropdown.open > .dropdown-toggle,
+  header .navbar .nav li.dropdown.active > .dropdown-toggle,
+  header .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    color: #ffffff;
+  }
+  header .navbar .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+  header .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+  header .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+  header .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+  #second-menu {
+    display: none;
+  }
+  #slides {
+    position: relative;
+  }
+  #slides .slides-container .container {
+    position: relative;
+  }
+  #slides .slides-container .container .caption {
+    width: 50%;
+    bottom: 100px;
+  }
+  #slides .slides-container .container .caption.center {
+    left: 50%;
+    margin-left: -25%;
+    text-align: center;
+  }
+}
+/* All Mobile Sizes (devices and browser)
+====================================================================== */
+@media only screen and (max-width: 767px) {
+  body {
+    padding: 0px;
+  }
+  header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  header .navbar {
+    position: relative;
+    top: 0px;
+  }
+  header .navbar .btn-navbar {
+    margin-top: 20px;
+  }
+  header .navbar .btn-navbar:hover {
+    margin-top: 21px;
+  }
+  header .navbar .btn-navbar.active,
+  header .navbar .btn-navbar:active {
+    margin-top: 22px;
+  }
+  header .navbar-inner {
+    background: transparent;
+  }
+  header .navbar .brand {
+    color: #ffffff;
+  }
+  header .navbar .nav > li > a {
+    color: #ffffff;
+    padding: 0px 20px;
+  }
+  header .navbar .nav > li > a:focus,
+  header .navbar .nav > li > a:hover {
+    color: #ffffff;
+  }
+  header .navbar .nav > .active > a,
+  header .navbar .nav > .active > a:hover,
+  header .navbar .nav > .active > a:focus {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
+  header .navbar .nav li.dropdown.open > .dropdown-toggle,
+  header .navbar .nav li.dropdown.active > .dropdown-toggle,
+  header .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    color: #ffffff;
+  }
+  header .navbar .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+  header .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+  header .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+  header .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+  .container {
+    overflow: hidden;
+  }
+  #slides {
+    position: relative;
+  }
+  #slides .slides-container .container {
+    position: relative;
+  }
+  #slides .slides-container .container .caption {
+    width: 80%;
+    bottom: 40px;
+  }
+  #slides .slides-container .container .caption h1 {
+    font-size: 18px;
+  }
+  #slides .slides-container .container .caption p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+  #slides .slides-container .container .caption.center {
+    left: 50%;
+    margin-left: -40%;
+    text-align: center;
+  }
+  .team-member {
+    margin-bottom: 40px;
+  }
+  .price-table-overlay {
+    width: 100% !important;
+    overflow-x: scroll;
+  }
+  .price-table.five {
+    width: 1000px;
+  }
+  .price-table.four {
+    width: 800px;
+  }
+  .price-table.three {
+    width: 900px;
+  }
+  .price-table.five ul {
+    width: 200px;
+  }
+  .price-table.four ul {
+    width: 200px;
+  }
+  .price-table.three ul {
+    width: 300px;
+  }
+  .price-table.two ul {
+    width: 50%;
+  }
+  .price-table.one ul {
+    width: 100%;
+  }
+  #contact {
+    height: auto;
+  }
+  #contact .main .contact-area {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact-info {
+    padding: 20px;
+  }
+  footer #owner {
+    text-align: center;
+  }
+  footer #follow {
+    text-align: center;
+  }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .featured-icons .span3 {
+    width: 50% !important;
+    float: left !important;
+    padding: 2px;
+  }
+  .team-member {
+    margin-bottom: 40px;
+    width: 50% !important;
+    float: left !important;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+=================================================================== */
+@media only screen and (max-width: 479px) {
+  #contact {
+    height: auto;
+  }
+  #contact .main .contact-area {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #map {
+    position: relative;
+    z-index: 1;
+    height: 800px;
+    width: 100%;
+    margin-top: -800px;
+  }
+}

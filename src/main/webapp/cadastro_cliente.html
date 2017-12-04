@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Actor|Biryani|Martel+Sans" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/registrationStyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Cadastro de usuário</title>
+  </head>
+  <body>
+    <div id="containerPrincipal">
+        <header>
+          <h1>SUA FARMÁCIA ON-LINE</h1>
+          <h2>CADASTRO DE CLIENTE</h2>
+        </header>
+        <section id="formulario">
+              <fieldset>
+                    <section id="formulCadastros">
+                        <form class="cadastroCliente" >
+                          <label for="nomeCompletoCliente">Nome do usuário:
+                            <input type="text" class="entradaCliente" name="nomeCliente" id="nomeCompletoCliente" placeholder="Digite o nome completo do cliente" required>
+                          </label>
+                          <label for="dataNascimentoCliente">Data de nascimento:
+                              <input type="datetime" class="entradaCliente" name="nascimentoCliente" id="dataNascimentoCliente" placeholder="DD/MM/AAAA" required>
+                          </label>
+                          <label for="cpfCliente">CPF:
+                            <input type="text" name="cpfCliente" class="entradaCliente" id="pessoaFisicaCliente" placeholder="xxx.xxx.xxx-xx" required>
+                          </label>
+                          <label for="e-mailCliente">E-mail:
+                              <input type="email" name="e-mailCliente" class="entradaCliente" id="e-mailCliente" placeholder="Digite aqui o e-mail do cliente" required>
+                          </label>
+                          <label for="telefoneCliente">Telefone:
+                            <input type="tel" name="telefoneCliente" class="entradaCliente"  id="telefoneCliente" placeholder="Digite o número de telefone do cliente" required>
+                          </label>
+                          <div id="envioPromocao">
+                            <input type="checkbox" name="envioPromocoes" class="entradaCliente" id="envioPromocoes">
+                            <span id="textEnvioPromocao">Cliente autoriza envio de promoções<span>
+                          </div>
+                          <br/><br/><br/>
+                          <div class="botoes">
+                            <button id="botao" class="botao" type="submit" form="cadastroUsuario" formaction="#" name="botaoEntrarSistema" onclick="abrirPopUpCadCl()">Cadastrar</button>
+                            <button class="botao" type="submit" form="cadastroCliente" name="botaoEntrarSistema" onclick="limparCamposCl()">Limpar Campos</button>
+                          </div>
+                        </form>
+                        </section>
+                  </fieldset>
+                  <section class="homeBack">
+                        <a href="admin_dashboard.html"><img src="img/home.png" alt="home"></a>
+                  </section>
+            </section>
+      </div>
+      <footer>Desenvolvido por John F. Eichstaedt. Todos os direitos reservados&nbsp;&copy;&nbsp;2017</footer>
+  </body>
+</html>

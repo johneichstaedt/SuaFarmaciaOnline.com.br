@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <!--Tag necessária para desenvolvimento de sites responsivos-->
+    <meta name="viewport" content="width=device-width, initial scale=1"/>
+    <!--Inserção de Favicon-->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Biblioteca de fontes do google-->
+    <link href="https://fonts.googleapis.com/css?family=Actor|Biryani|Martel+Sans" rel="stylesheet">
+    <!--Inserção de jQuery-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Sua farmácia on-line</title>
+  </head>
+  <body>
+
+    <div id="containerSlide">
+      <img src="img/img1.jpg" alt="banner1" text="Nunca foi <span>tão fácil</span> gerenciar sua farmácia">
+      <img src="img/img2.jpg" alt="banner2" text="Você mesmo irá desenvolver seu site">
+      <img src="img/img3.jpg" alt="banner3" text="&nbsp;&nbsp;Escolha inúmeros templates">
+    </div>
+    <hr>
+    <section id = "entrarLogin">
+          <form id="loginForm" >
+            <label for="loginForm"><strong>LOGIN</strong></label>
+            <input type="text" name="entradaLogin" id="login" placeholder="Digite aqui seu login" title="Digite seu login nesse campo" required>
+            <br/><br/><br/>
+            <label for="loginForm"><strong>SENHA</strong></label>
+            <input type="password" name="entradaSenha" id="password" placeholder="Digite aqui sua senha" title="Digite sua senha nesse campo" required>
+            <br/><br/><br/>
+            <button class="botao" type="submit" form="loginForm" formaction="admin_dashboard.html" name="botaoEntrarSistema">Entrar</button>
+          </form>
+    </section>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <a href="cadastro_usuario.html">Ainda não possui cadastro?</a>
+      <br/>
+      <a href="refazer_senha.html">Esqueceu a senha?</a>
+<footer>Desenvolvido por John F. Eichstaedt. Todos os direitos reservados&nbsp;&copy;&nbsp;2017</footer>
+  </body>
 </html>

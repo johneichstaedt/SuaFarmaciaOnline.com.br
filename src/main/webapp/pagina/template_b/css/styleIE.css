@@ -1,0 +1,20 @@
+.nav-collapse.collapse {
+    float: right;
+}
+
+.navbar .nav > li > a {
+  	margin: 29px 10px;
+}
+
+#fixed-menu .menu {
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF);
+}
+
+.contact-info:before {
+	background: #fff;
+}
+
+ul.clients-list li {
+		margin: 0% 2% 0% 2%;
+}

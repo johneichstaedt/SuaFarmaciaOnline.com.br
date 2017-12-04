@@ -1,0 +1,392 @@
+@dark: #202020;
+@grey: #A2A2A2;
+@greyLight: #FAFAFA;
+@greyDark: #313131;
+@white: #FFFFFF;
+@green: #BDEA74;
+
+/* Higher than 1200 (desktop devices)
+====================================================================== */
+@media (min-width: 1200px) {
+	
+	.nav-collapse.collapse {
+	    float: right;
+	}
+	
+	.navbar-inner > .btn-overlay {
+		display: none !important;
+	}
+	
+}
+
+/* Higher than 960 (desktop devices)
+====================================================================== */
+@media only screen and (min-width: 980px) and (max-width: 1199px){
+	
+	.nav-collapse.collapse {
+	    float: right;
+	}
+	
+	.navbar .nav > li > a {
+		margin: 29px 20px;
+	}
+	
+	#slides {
+	  	position: relative;
+
+		.slides-container {
+
+			.container {
+				position: relative;
+	
+				.caption {
+					width: 42%;
+					bottom: 100px;
+				}
+				
+				.caption.center {
+					left: 50%;
+					margin-left: -21%;
+					text-align: center;
+				}
+			}
+		}			
+	}
+
+}
+
+/* Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	
+	header {
+		position: absolute;
+		width: 100%;
+		z-index:100;
+		background: rgba(0,0,0,.75);
+		
+		.navbar {
+			position: relative;
+			top:0px;
+			
+			.btn-navbar {
+			  	margin-top: 20px;
+
+				&:hover {
+				  	margin-top: 21px;
+				}
+
+				&.active,
+				&:active {
+				  	margin-top: 22px;
+				}
+
+			}
+			
+		}
+
+		.navbar-inner {
+		  	background: transparent;
+		}
+
+		.navbar .brand {
+		  	color: @white;
+		}
+
+		.navbar .nav > li > a {
+		  	color: @white;
+			padding: 0px 20px;
+		}
+
+		.navbar .nav > li > a:focus,
+		.navbar .nav > li > a:hover {
+		  	color: @white;
+		}
+
+		.navbar .nav > .active > a,
+		.navbar .nav > .active > a:hover,
+		.navbar .nav > .active > a:focus {
+		  	color: @white;
+			border-bottom: 1px solid @white;		
+		}
+
+		.navbar .nav li.dropdown.open > .dropdown-toggle,
+		.navbar .nav li.dropdown.active > .dropdown-toggle,
+		.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+		  color: @white;
+		}
+
+		.navbar .nav li.dropdown > .dropdown-toggle .caret {
+		  border-top-color: @white;
+		  border-bottom-color: @white;
+		}
+
+		.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+		.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+		.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+		  border-top-color: @white;
+		  border-bottom-color: @white;
+		}
+		
+	}
+	
+	#second-menu {
+		display:none;
+	}
+	
+	#slides {
+	  	position: relative;
+
+		.slides-container {
+
+			.container {
+				position: relative;
+	
+				.caption {
+					width: 50%;
+					bottom: 100px;
+				}
+				
+				.caption.center {
+					left: 50%;
+					margin-left: -25%;
+					text-align: center;
+				}
+			}
+		}			
+	}	
+}
+
+/* All Mobile Sizes (devices and browser)
+====================================================================== */
+@media only screen and (max-width: 767px) {
+	
+	body {
+		padding: 0px;
+	}
+	
+	header {
+		position: absolute;
+		width: 100%;
+		z-index:100;
+		background: rgba(0,0,0,.75);
+		
+		.navbar {
+			position: relative;
+			top:0px;
+			
+			.btn-navbar {
+			  	margin-top: 20px;
+
+				&:hover {
+				  	margin-top: 21px;
+				}
+
+				&.active,
+				&:active {
+				  	margin-top: 22px;
+				}
+
+			}
+			
+		}
+
+		.navbar-inner {
+		  	background: transparent;
+		}
+
+		.navbar .brand {
+		  	color: @white;
+		}
+
+		.navbar .nav > li > a {
+		  	color: @white;
+			padding: 0px 20px;
+		}
+
+		.navbar .nav > li > a:focus,
+		.navbar .nav > li > a:hover {
+		  	color: @white;
+		}
+
+		.navbar .nav > .active > a,
+		.navbar .nav > .active > a:hover,
+		.navbar .nav > .active > a:focus {
+		  	color: @white;
+			border-bottom: 1px solid @white;		
+		}
+
+		.navbar .nav li.dropdown.open > .dropdown-toggle,
+		.navbar .nav li.dropdown.active > .dropdown-toggle,
+		.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+		  color: @white;
+		}
+
+		.navbar .nav li.dropdown > .dropdown-toggle .caret {
+		  border-top-color: @white;
+		  border-bottom-color: @white;
+		}
+
+		.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+		.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+		.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+		  border-top-color: @white;
+		  border-bottom-color: @white;
+		}
+		
+	}
+	
+	.container {
+		overflow: hidden;
+	}
+	
+	#slides {
+	  	position: relative;
+
+		.slides-container {
+
+			.container {
+				position: relative;
+	
+				.caption {
+					width: 80%;
+					bottom: 40px;
+					
+					
+					h1 {
+						font-size: 18px;
+					}
+					
+					p {
+						line-height:20px;
+						font-size: 12px;
+					}
+				}
+				
+				.caption.center {
+					left: 50%;
+					margin-left: -40%;
+					text-align: center;
+				}
+			}
+		}			
+	}
+	
+	.team-member {
+		margin-bottom: 40px;
+	}
+	
+	.price-table-overlay {
+		width: 100% !important;
+		overflow-x: scroll;
+	}
+	
+	.price-table.five {
+		width: 1000px;
+	}
+	
+	.price-table.four {
+		width: 800px;
+	}
+	
+	.price-table.three {
+		width: 900px;
+	}
+	
+	.price-table.five ul {
+		width: 200px;
+	}	
+
+	.price-table.four ul {
+		width: 200px;
+	}
+
+	.price-table.three ul {
+		width: 300px;
+	}	
+
+	.price-table.two ul {
+		width: 50%;
+	}
+
+	.price-table.one ul {
+		width: 100%;
+	}
+	
+	
+	#contact {
+		height: auto;
+		
+		.main {
+			
+			.contact-area {
+				
+				width: 80%;
+				margin: 0 auto;
+				
+			}
+		}
+	}
+		
+	.contact-info {
+		padding: 20px;
+	}
+		
+	footer {
+		
+		#owner {
+			text-align: center;
+		}
+		
+		#follow {
+			text-align: center;
+		}
+		
+	}	
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers)
+====================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.featured-icons .span3 {
+		width: 50% !important;
+		float: left !important;
+		padding: 2px;
+	}
+	
+	.team-member {
+		margin-bottom: 40px;
+		width: 50% !important;
+		float: left !important;
+	}
+	
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+=================================================================== */
+@media only screen and (max-width: 479px) {
+
+	#contact {
+		height: auto;
+		
+		.main {
+			
+			.contact-area {
+				width: 90%;
+				margin: 0 auto;
+			}
+		}
+	}
+	
+	#map {
+		position: relative;
+		z-index: 1;
+		height: 800px;
+		width: 100%;
+		margin-top: -800px;
+
+	}
+		
+}

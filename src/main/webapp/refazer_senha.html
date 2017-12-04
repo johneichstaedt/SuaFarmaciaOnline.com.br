@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1"/>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/registrationStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Actor|Biryani|Martel+Sans" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Refazer senha</title>
+  </head>
+  <body>
+    <div id="containerPrincipal">
+      <header>
+        <h1>SUA FARMÁCIA ON-LINE</h1>
+        <h2 id="h2esqueceuSenha">Esqueceu sua senha? Caso sim, digite seu e-mail no campo abaixo e confirme. Nós enviaremos
+        um link para o endereço de e-mail informado possibilitando assim a recuperação da senha.</h2>
+      </header>
+      <fieldset>
+        <section id="formulCadSenhaEsquecida">
+            <form class="cadastroUsuario" >
+              <label for="email">E-mail:
+                  <input type="email" name="e-mail" class="entrada" id="e-mailEs" placeholder="Digite aqui seu e-mail" required>
+              </label>
+              <br/><br/><br/>
+              <div class="botoes">
+                <button id="botao" class="botao" type="submit" form="cadastroUsuario" formaction="#" name="botaoEntrarSistema" onclick="abrirPopUpPassword()">Enviar</button>
+                <button class="botao" type="submit" form="cadastroUsuario" name="botaoEntrarSistema" onclick="limparEmail()">Limpar</button>
+              </div>
+            </form>
+            </fieldset>
+    </div>
+        <footer>Desenvolvido por John F. Eichstaedt. Todos os direitos reservados&nbsp;&copy;&nbsp;2017</footer>
+  </body>
+</html>

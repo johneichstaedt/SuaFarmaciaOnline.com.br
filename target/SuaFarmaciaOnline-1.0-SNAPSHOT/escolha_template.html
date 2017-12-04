@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Actor|Biryani|Martel+Sans" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/registrationStyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $( "#templateA" ).click(function() {
+        $("#h2ConfirmaTemplate").append("john");
+          newpopupWindow = window.open ('sucesso_cadastro_finalizado.html','pagina',"width=1200 height=570, top=90, left=110");
+        });
+      });
+    </script>
+    <title>Escolha um template</title>
+  </head>
+  <body>
+    <div id="containerPrincipal">
+      <header>
+        <h1>SUA FARMÁCIA ON-LINE</h1>
+        <h2>ESCOLHA UM TEMPLATE</h2>
+      </header>
+      <section id=containerTemplates>
+          <section id="templateA" onclick="abrirPopUpTemplates()">
+              <header>
+                  <h1>Template A</h1>
+              </header>
+              <section class="figurasTemplate">
+                <img src="img/templateA.png" alt="template A">
+              </section>
+          </section>
+          <section id="templateB" onclick="abrirPopUpTemplates()">
+            <header>
+                <h1>Template B</h1>
+            </header>
+            <section class="figurasTemplate">
+              <img src="img/templateB.jpg" alt="template B">
+            </section>
+          </section>
+          <section id="templateC" onclick="abrirPopUpTemplates()">
+            <header>
+                <h1>Template C</h1>
+            </header>
+            <section class="figurasTemplate">
+                <img src="img/templateC.jpg" alt="template C">
+            </section>
+          </section>
+      </section>
+      </div>
+      <footer>Desenvolvido por John F. Eichstaedt. Todos os direitos reservados&nbsp;&copy;&nbsp;2017</footer>
+  </body>
+</html>

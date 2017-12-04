@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Actor|Biryani|Martel+Sans" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/registrationStyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Cadastro de usuário</title>
+  </head>
+  <body>
+    <div id="containerPrincipal">
+      <header>
+        <h1>SUA FARMÁCIA ON-LINE</h1>
+        <h2>CADASTRO DE USUÁRIO</h2>
+      </header>
+      <section id="formulario">
+        <fieldset>
+          <section id="formulCadastros">
+              <form class="cadastroUsuario" >
+                <label for="nomeCompleto">Nome do usuário:
+                  <input type="text" class="entrada" name="nome" id="nomeCompleto" placeholder="Digite aqui seu nome completo" required>
+                </label>
+                <label for="dataNascimento">Data de nascimento:
+                    <input type="datetime" class="entrada" name="nascimento" id="dataNascimento" placeholder="DD/MM/AAAA" required>
+                </label>
+                <label for="cpf">CPF:
+                  <input type="text" name="cpf" class="entrada" id="pessoaFisica" placeholder="xxx.xxx.xxx-xx" required>
+                </label>
+                <label for="rg">RG:
+                    <input type="text" name="rg" class="entrada" id="registroGeral" placeholder="Digite aqui seu RG" required>
+                </label>
+                <label for="email">E-mail:
+                    <input type="email" name="e-mail" class="entrada" id="e-mail" placeholder="Digite aqui seu e-mail" required>
+                </label>
+                <label for="fone">Telefone:
+                  <input type="tel" name="telefone" class="entrada"  id="telefone" placeholder="Digite aqui seu número de telefone" required>
+                </label>
+                <label for="senhaUs">Senha:
+                  <input type="password" name="senhaUs" class="entrada"  id="senhaUs" placeholder="Digite uma senha" required>
+                </label>
+                <br/><br/><br/>
+                <div class="botoes">
+                  <button id="botao" class="botao" type="submit" form="cadastroUsuario" formaction="#" name="botaoEntrarSistema" onclick="abrirPopUpCadUs()">Cadastrar</button>
+                  <button class="botao" type="submit" form="cadastroUsuario" name="botaoEntrarSistema" onclick="limparCampos()">Limpar Campos</button>
+                </div>
+              </form>
+              </fieldset>
+              </section>
+          </section>
+      </div>
+      <footer>Desenvolvido por John F. Eichstaedt. Todos os direitos reservados&nbsp;&copy;&nbsp;2017</footer>
+  </body>
+</html>
