@@ -18,6 +18,7 @@ public class ApplicationConfig extends Application {
 
     
     private void addRestResourceClasses(Set<Class<?>> resources) {
+        resources.add(br.com.suafarmaciaonline.dao.AutenticacaoResource.class);
         resources.add(br.com.suafarmaciaonline.dao.ClientesResource.class);
         resources.add(br.com.suafarmaciaonline.dao.ContatosResource.class);
         resources.add(br.com.suafarmaciaonline.dao.FarmaciasResource.class);
